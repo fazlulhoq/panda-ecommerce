@@ -50,4 +50,24 @@
 .card{
     border: none;
     box-shadow: 5px 5px 10px #888888;
+    border-radius: 10px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+    
+}
+
+#contactUs{
+    height: 300px;
+}
+#contactUs h6{
+    color: gray;
+}
+#contactUs button{
+    margin-top: 5px;
+}
+
+footer{
+    text-align: center;
 }
