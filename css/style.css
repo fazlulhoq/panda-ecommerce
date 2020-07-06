@@ -30,14 +30,16 @@
 }
 
 .cat1{
-    background-color: orange;
+    
+    
+    background-image: linear-gradient(45deg, #FF9C35, #ffd019);
 }
 .cat2{
-    background-color: tomato;
+    background-image: linear-gradient(45deg, #ff589b, #ff136f);
 }
 
 .cat3{
-    background-color: blue;
+    background-image: linear-gradient(45deg, #4289ff, #07f8c3);
 }
 
 .categories h1{
@@ -70,4 +72,16 @@
 
 footer{
     text-align: center;
+    padding-bottom: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: #ff136f;
+}
+
+footer a:hover{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff589b;
+    font-weight: 500;
 }
